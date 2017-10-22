@@ -18,10 +18,10 @@
                 z-index:1051;
             }
             .panel-primary{
-                margin-top:50px;
+                margin-top:40px;
             }
         </style>
-        <script src="/js/item-ajax.js"></script>
+        <script src="js/item-ajax.js"></script>
     </head>
 
     <body>
@@ -47,7 +47,7 @@
                                 <tr>
                                     <th>Nome</th>
                                     <th>Sobrenome</th>
-                                    <th>Edereço</th>
+                                    <th>Endereço</th>
                                     <th width="200px">Ação</th>
                                 </tr>
                             </thead>
@@ -64,7 +64,7 @@
                     <div class="modal-content">
                         <div class="modal-header">
                             <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
-                            <h4 class="modal-title" id="myModalLabel">Create Item</h4>
+                            <h4 class="modal-title" id="myModalLabel">Inserir Cadastro</h4>
                         </div>
                         <div class="modal-body">
                             <form data-toggle="validator" action="api/create.php" method="POST">
@@ -84,7 +84,7 @@
                                     <div class="help-block with-errors"></div>
                                 </div>
                                 <div class="form-group">
-                                    <button type="submit" class="btn crud-submit btn-success">Submit</button>
+                                    <button type="submit" class="btn crud-submit btn-success">Enviar</button>
                                 </div>
                             </form>
                         </div>

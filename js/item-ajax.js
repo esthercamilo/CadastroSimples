@@ -65,7 +65,7 @@ function manageRow(data) {
 	$("tbody").html(rows);
 }
 
-/* Create new Item */
+/* Inserir novo cadastro */
 $(".crud-submit").click(function(e){
     e.preventDefault();
     var form_action = $("#create-item").find("form").attr("action");
