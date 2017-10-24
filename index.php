@@ -120,7 +120,7 @@
                                     <div class="help-block with-errors"></div>
                                 </div>
                                 <div class="form-group">
-                                    <button type="submit" class="btn btn-success crud-submit-edit">Submit</button>
+                                    <button type="submit" class="btn btn-success crud-submit-edit">Enviar</button>
                                 </div>
                             </form>
 
